@@ -9,8 +9,8 @@ x-kinRank: "9"
 x-alexaRank: ""
 tags:
 - US Bank
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/merchants/master/_listings/capital-one-devexchange/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -22,7 +22,7 @@ apis:
   tags: Merchants
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/merchants/master/_listings/capital-one-devexchange/merchants-id-accounts-accountid-purchases-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/merchants/master/_listings/capital-one-devexchange/merchants-get.md
 x-common:
 - type: x-authentication
   url: https://developer.capitalone.com/platform-documentation/authorization-with-oauth-20/
