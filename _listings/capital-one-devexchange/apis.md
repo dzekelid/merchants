@@ -23,7 +23,50 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/merchants/master/_listings/capital-one-devexchange/merchants-id-accounts-accountid-purchases-get.md
+- name: Capital One DevExchange Get all merchants
+  description: Returns the merchants that have been assigned to you.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/capitalone-devexchange.png
+  humanURL: http://capitalone.com
+  baseURL: https://api.reimaginebanking.com//
+  tags: Merchants
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/merchants/master/_listings/capital-one-devexchange/merchants-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/merchants/master/_listings/capital-one-devexchange/merchants-get-postman.md
 x-common:
+- type: x-authentication
+  url: https://developer.capitalone.com/platform-documentation/authorization-with-oauth-20/
+- type: x-blog
+  url: https://developer.capitalone.com/blogs/
+- type: x-developer
+  url: https://developer.capitalone.com/
+- type: x-documentation
+  url: https://developer.capitalone.com/platform-documentation/
+- type: x-errors
+  url: https://developer.capitalone.com/platform-documentation/errors/
+- type: x-getting-started
+  url: https://developer.capitalone.com/platform-documentation/getting-started/
+- type: x-github
+  url: https://github.com/capitalone
+- type: x-website
+  url: http://capitalone.com
+- type: x-open-source
+  url: https://developer.capitalone.com/open-source/
+- type: x-sandbox
+  url: https://developer.capitalone.com/platform-documentation/using-the-sandbox/
+- type: x-login
+  url: https://developer.capitalone.com/sign-in/
+- type: x-selfservice-registration
+  url: https://developer.capitalone.com/sign-up
+- type: x-support
+  url: https://developer.capitalone.com/support/
+- type: x-privacy-policy
+  url: https://www.capitalone.com/identity-protection/privacy/statement
+- type: x-terms-of-service
+  url: https://developer.capitalone.com/single/terms-and-conditions/
+- type: x-twitter
+  url: https://twitter.com/CapitalOneDevEx
 - type: x-authentication
   url: https://developer.capitalone.com/platform-documentation/authorization-with-oauth-20/
 - type: x-blog
