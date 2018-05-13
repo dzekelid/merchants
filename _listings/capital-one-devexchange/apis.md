@@ -23,17 +23,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/merchants/master/_listings/capital-one-devexchange/merchants-id-accounts-accountid-purchases-get.md
-- name: Capital One DevExchange Get merchant by id
-  description: Returns the merchant with the specific id
+- name: Capital One DevExchange Update a specific existing merchant
+  description: Updates the specific merchant
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/capitalone-devexchange.png
   humanURL: http://capitalone.com
   baseURL: https://api.reimaginebanking.com//
   tags: Merchants
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/merchants/master/_listings/capital-one-devexchange/merchants-id-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/merchants/master/_listings/capital-one-devexchange/merchants-id-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/merchants/master/_listings/capital-one-devexchange/merchants-id-put.md
 x-common:
 - type: x-authentication
   url: https://developer.capitalone.com/platform-documentation/authorization-with-oauth-20/
